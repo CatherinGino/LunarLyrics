@@ -192,3 +192,34 @@ h6 {
   color: #b0b0b0;
 }
 
+.myself-image {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 50px 10%;
+}
+
+
+.merienda {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  text-shadow: #204b7d 1px 1px 2px, #204b7d 0 0 25px, #204b7d 0 0 5px;
+  font-style: normal;
+}
+
+.lyric-text {
+  text-shadow: rgb(210, 193, 112) 1px 1px 2px, rgb(210, 193, 112) 0 0 25px, rgb(210, 193, 112) 0 0 5px;
+}
+
+.link {
+  color: #b1adb4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #333;
+}
