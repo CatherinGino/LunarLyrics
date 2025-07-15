@@ -13,11 +13,11 @@ app.set('view engine', 'ejs');
 app.use('/bootstrap', express.static(path.join(__dirname, 'node_modules', 'bootstrap', 'dist')));
 
 app.get('/', (req, res) => {
-  res.redirect('/home');  
+  res.render('home');  
 });
 
 app.get('/home', (req, res) => {
-  res.render('home');   
+  res.redirect('/');   
 });
 
 app.get('/about', (req, res) => { 
