@@ -1,5 +1,5 @@
-*{
-    background-color: #0d0d0d;
+* {
+  background-color: #0d0d0d;
 }
 
 hr {
@@ -12,81 +12,83 @@ hr {
 }
 
 .nav-list {
-    display: flex;
-    justify-content: flex-end;  
-    gap: 1.5rem;              
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+.nav-list a {
+  text-decoration: none;
+  color: #b1adb4;
+  font-weight: bold;
+  font-size: 23px;
+  padding: 3px 8px;
+}
+
+@media (max-width: 768px) {
   .nav-list a {
-    text-decoration: none;
-    color: #b1adb4;                
-    font-weight: bold;
-    font-size: 23px;
-    padding: 3px 8px;          
+    font-size: 18px;
+    padding: 2px 6px;
   }
+}
 
-  @media (max-width: 768px) {
-    .nav-list a {
-      font-size: 18px;          
-      padding: 2px 6px;        
-    }
-  }
+.nav-list a:hover {
+  color: #333;
+}
 
-  .nav-list a:hover {
-    color: #333;            
-  }
-
-  .rose{
-    padding-left: 30px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
+.rose {
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow-y: auto;
 }
 
-#stars, #stars:after,
-#stars2, #stars2:after,
-#stars3, #stars3:after {
+#stars,
+#stars:after,
+#stars2,
+#stars2:after,
+#stars3,
+#stars3:after {
   position: absolute;
   top: 0;
   left: 0;
   background: transparent;
 }
 
-#stars, #stars:after {
+#stars,
+#stars:after {
   width: 1px;
   height: 1px;
-  box-shadow: 
-    1000px 600px #FFF,
-    1500px 800px #FFF,
-    700px 1200px #FFF,
-    1300px 400px #FFF;
+  box-shadow: 1000px 600px #fff, 1500px 800px #fff, 700px 1200px #fff,
+    1300px 400px #fff, 300px 900px #fff, 1800px 1000px #fff, 900px 1600px #fff,
+    400px 500px #fff, 1600px 300px #fff, 1900px 700px #fff;
   animation: animStar 50s linear infinite;
 }
 
-#stars2, #stars2:after {
+#stars2,
+#stars2:after {
   width: 2px;
   height: 2px;
-  box-shadow: 
-    500px 900px #FFF,
-    800px 400px #FFF,
-    1200px 1100px #FFF;
+  box-shadow: 500px 900px #fff, 800px 400px #fff, 1200px 1100px #fff,
+    577px 758px #fff, 1734px 942px #fff, 1494px 1067px #fff, 1039px 1966px #fff,
+    925px 1644px #fff, 1950px 1653px #fff, 81px 1698px #fff, 641px 987px #fff;
   animation: animStar 100s linear infinite;
 }
 
-#stars3, #stars3:after {
+#stars3,
+#stars3:after {
   width: 3px;
   height: 3px;
-  box-shadow: 
-    600px 300px #FFF,
-    900px 1300px #FFF;
+  box-shadow: 600px 300px #fff, 900px 1300px #fff, 980px 683px #fff,
+    1840px 187px #fff, 791px 403px #fff, 960px 857px #fff;
   animation: animStar 150s linear infinite;
 }
 
@@ -104,9 +106,9 @@ html {
   top: 50%;
   left: 0;
   right: 0;
-  color: #FFF;
+  color: #fff;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 50px;
   letter-spacing: 10px;
@@ -121,7 +123,7 @@ html {
 }
 
 .border {
-  border:#1B2735 2px solid;
+  border: #1b2735 2px solid;
   width: 80%;
   border-radius: 28px;
   margin: 0 auto;
@@ -151,7 +153,7 @@ html {
 
 @media (max-width: 768px) {
   .custom-img {
-    width: 200px; 
+    width: 200px;
   }
 }
 
@@ -169,9 +171,9 @@ h6 {
 .footer-magic {
   text-align: center;
   padding: 20px;
-  background: radial-gradient(circle, #1B2735, #090A0F);
+  background: radial-gradient(circle, #1b2735, #090a0f);
   color: #e0e0e0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 -5px 15px rgba(255, 255, 255, 0.1);
@@ -202,7 +204,6 @@ h6 {
   margin: 50px 10%;
 }
 
-
 .merienda {
   font-family: "Merienda", cursive;
   font-optical-sizing: auto;
@@ -211,31 +212,38 @@ h6 {
 }
 
 .lyric-text.yellow {
-  text-shadow: rgb(210, 193, 112) 1px 1px 2px, rgb(210, 193, 112) 0 0 25px, rgb(210, 193, 112) 0 0 5px;
+  text-shadow: rgb(210, 193, 112) 1px 1px 2px, rgb(210, 193, 112) 0 0 25px,
+    rgb(210, 193, 112) 0 0 5px;
 }
 
 .lyric-text.pink {
-  text-shadow: rgb(255, 182, 193) 1px 1px 2px, rgb(255, 182, 193) 0 0 25px, rgb(255, 182, 193) 0 0 5px;
+  text-shadow: rgb(255, 182, 193) 1px 1px 2px, rgb(255, 182, 193) 0 0 25px,
+    rgb(255, 182, 193) 0 0 5px;
 }
 
 .lyric-text.blue {
-  text-shadow: rgb(102, 217, 239) 1px 1px 2px, rgb(102, 217, 239) 0 0 25px, rgb(102, 217, 239) 0 0 5px;
+  text-shadow: rgb(102, 217, 239) 1px 1px 2px, rgb(102, 217, 239) 0 0 25px,
+    rgb(102, 217, 239) 0 0 5px;
 }
 
 .lyric-text.green {
-  text-shadow: rgb(152, 251, 152) 1px 1px 2px, rgb(152, 251, 152) 0 0 25px, rgb(152, 251, 152) 0 0 5px;
+  text-shadow: rgb(152, 251, 152) 1px 1px 2px, rgb(152, 251, 152) 0 0 25px,
+    rgb(152, 251, 152) 0 0 5px;
 }
 
 .lyric-text.orange {
-  text-shadow: rgb(255, 127, 80) 1px 1px 2px, rgb(255, 127, 80) 0 0 25px, rgb(255, 127, 80) 0 0 5px;
+  text-shadow: rgb(255, 127, 80) 1px 1px 2px, rgb(255, 127, 80) 0 0 25px,
+    rgb(255, 127, 80) 0 0 5px;
 }
 
 .lyric-text.purple {
-  text-shadow: rgb(216, 191, 216) 1px 1px 2px, rgb(216, 191, 216) 0 0 25px, rgb(216, 191, 216) 0 0 5px;
+  text-shadow: rgb(216, 191, 216) 1px 1px 2px, rgb(216, 191, 216) 0 0 25px,
+    rgb(216, 191, 216) 0 0 5px;
 }
 
 .lyric-text.gold {
-  text-shadow: rgb(210, 193, 112) 1px 1px 2px, rgb(210, 193, 112) 0 0 25px, rgb(210, 193, 112) 0 0 5px;
+  text-shadow: rgb(210, 193, 112) 1px 1px 2px, rgb(210, 193, 112) 0 0 25px,
+    rgb(210, 193, 112) 0 0 5px;
 }
 
 .link {
