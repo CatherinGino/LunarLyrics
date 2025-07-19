@@ -246,6 +246,11 @@ h6 {
     rgb(210, 193, 112) 0 0 5px;
 }
 
+.lyric-text {
+  text-align: right;
+  margin-right: 15%;
+}
+
 .link {
   color: #b1adb4;
   text-decoration: none;
