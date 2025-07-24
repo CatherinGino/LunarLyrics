@@ -258,5 +258,11 @@ h6 {
 }
 
 .link:hover {
-  color: #333;
+  color: #1f1d1d;
+}
+
+.read-more {
+  color: rgb(86, 79, 100);
+  cursor: pointer;
+  text-decoration: underline;
 }

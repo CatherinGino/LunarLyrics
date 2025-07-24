@@ -1,3 +1,27 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const readMoreLinks = document.querySelectorAll('.read-more');
+
+    readMoreLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const blogPost = this.parentElement;
+        const fullText = blogPost.querySelector('.full-text');
+        const shortText = blogPost.querySelector('.short-text');
+
+        if (fullText.style.display === "none") {
+          fullText.style.display = "block";
+          this.textContent = "Show less";
+        } else {
+          fullText.style.display = "none";
+          this.textContent = "Click to read more";
+        }
+      });
+    });
+  });
+</script>
+
+
 <div class="footer-magic">
   <h5>✨Made with a pinch of Magic & Love🪄💖</h5>
   <h6>&copy; 2025 Catherin Gino — All rights reserved.</h6>
