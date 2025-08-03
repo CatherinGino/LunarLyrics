@@ -24,16 +24,16 @@ A blog that reflects the **chaotic beauty of being human** — featuring:
 ## 🌸 Featured Pages (Sneak Peek)
 
 ### 🖤 LOVE, the ultimate answer
-![Love Page](/mnt/data/Screenshot%202025-08-03%20172115.png)
+![Love Page](/screenshots/lovepage.png)
 
 ### 💜 Fire on Fire – Perfection Doesn’t Exist
-![Fire on Fire Page](/mnt/data/Screenshot%202025-08-03%20172127.png)
+![Fire on Fire Page](/screenshots/fireonfire.png)
 
 ### 🔵 Strange Addiction – Healing Through Letting Go
-![Strange Addiction Page](/mnt/data/Screenshot%202025-08-03%20172140.png)
+![Strange Addiction Page](/screenshots/strangeaddiction.png)
 
 ### 🌺 Dynasty – The Search for Happiness
-![Dynasty Page](/mnt/data/Screenshot%202025-08-03%20172156.png)
+![Dynasty Page](/screenshots/dynasty.png)
 
 ---
 
