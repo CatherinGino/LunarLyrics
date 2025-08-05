@@ -251,8 +251,13 @@ h6 {
   margin-right: 15%;
 }
 
+.link {
+  color: #b1adb4;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-.read-more :hover {
+.link:hover{
   color: #1f1d1d;
 }
 
